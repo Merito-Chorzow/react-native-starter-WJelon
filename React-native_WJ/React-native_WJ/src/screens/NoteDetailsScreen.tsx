@@ -1,8 +1,8 @@
 import React from "react";
 import { Text, View, Pressable } from "react-native";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
-import { RootStackParamList } from "../../App";
 import { useNotes } from "../store/NotesStore";
+import type { RootStackParamList } from "../navigation/types";
 
 type Props = NativeStackScreenProps<RootStackParamList, "NoteDetails">;
 
